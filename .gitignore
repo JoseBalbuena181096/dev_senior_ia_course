@@ -1,0 +1,6 @@
+
+# Ignorar el archivo CSV específico
+modulo2/clase3/dataset/btcusd_1-min_data.csv
+
+# O para ignorar todos los CSV de la carpeta
+# modulo2/clase3/dataset/*.csv
