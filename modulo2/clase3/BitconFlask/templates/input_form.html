@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Bitcoin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bitcoin: '#f7931a',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #f7931a;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <div class="flex items-center text-2xl font-bold text-bitcoin mb-6">
+                <span class="mr-2 text-3xl">₿</span> Análisis de Bitcoin
+            </div>
+            
+            <h1 class="text-3xl font-bold mb-6 pb-2 border-b-2 border-bitcoin text-bitcoin">
+                Análisis de Datos Históricos de Bitcoin
+            </h1>
+            
+            {% if error %}
+            <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-6 rounded">
+                <p class="text-red-700">{{ error }}</p>
+            </div>
+            {% endif %}
+            
+            <form action="/" method="post" enctype="multipart/form-data" id="uploadForm">
+                <div class="mb-4">
+                    <label for="file" class="block font-medium mb-2">Selecciona un archivo CSV de precios históricos de Bitcoin:</label>
+                    <input type="file" id="file" name="file" accept=".csv" required
+                           class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none">
+                    <p class="mt-1 text-sm text-gray-500">El archivo debe tener las columnas: Timestamp, Open, High, Low, Close, Volume, datetime</p>
+                </div>
+                <div class="flex items-center">
+                    <button type="submit" id="submitBtn" class="bg-bitcoin hover:bg-amber-600 text-white font-bold py-2 px-4 rounded">
+                        Analizar Datos
+                    </button>
+                    <div id="loadingSpinner" class="hidden ml-4 flex items-center">
+                        <div class="spinner mr-3"></div>
+                        <span class="text-gray-700">Procesando datos...</span>
+                    </div>
+                </div>
+            </form>
+            
+            {% if stats %}
+            <div class="mt-10">
+                <h2 class="text-2xl font-bold mb-6">Resultados del Análisis</h2>
+                
+                {% if plot_url %}
+                <div class="mb-10">
+                    <h2 class="text-xl font-semibold mb-4">Visualizaciones</h2>
+                    <div class="mt-4 flex justify-center">
+                        <img src="{{ plot_url }}" alt="Gráficos de análisis de Bitcoin" class="max-w-full h-auto rounded-lg shadow-md">
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="mb-10">
+                    <h2 class="text-xl font-semibold mb-4">Estadísticas</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {% for category, category_stats in stats.items() %}
+                        <div class="bg-gray-50 rounded-lg p-4 shadow">
+                            <h3 class="text-bitcoin font-bold border-b border-gray-200 pb-2 mb-3">{{ category }}</h3>
+                            {% for stat_name, stat_value in category_stats.items() %}
+                            <div class="flex justify-between py-1">
+                                <span class="font-medium">{{ stat_name }}:</span>
+                                <span class="
+                                    {% if 'cambio' in stat_name.lower() or 'retorno' in stat_name.lower() %}
+                                        {% if '-' in stat_value %}text-red-600{% else %}text-green-600{% endif %}
+                                    {% endif %}
+                                ">{{ stat_value }}</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                {% if data %}
+                <div class="mb-6">
+                    <h2 class="text-xl font-semibold mb-4">Muestra de Datos (Primeros 10 registros)</h2>
+                    <div class="overflow-x-auto border border-gray-200 rounded-lg max-h-96 shadow">
+                        {{ data | safe }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            const fileInput = document.getElementById('file');
+            if (fileInput.files.length > 0) {
+                document.getElementById('submitBtn').disabled = true;
+                document.getElementById('submitBtn').classList.add('bg-gray-500');
+                document.getElementById('submitBtn').classList.remove('bg-bitcoin', 'hover:bg-amber-600');
+                document.getElementById('loadingSpinner').classList.remove('hidden');
+                document.getElementById('loadingSpinner').classList.add('flex');
+            }
+        });
+    </script>
+</body>
+</html>
