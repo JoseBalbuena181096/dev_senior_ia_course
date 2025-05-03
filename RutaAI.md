@@ -27,13 +27,6 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
     * Programación en Python (variables, tipos de datos, estructuras de control, funciones, OOP básica, manejo de archivos).
     * Bibliotecas Clave (Introducción): NumPy (arrays, operaciones vectorizadas), Pandas (DataFrames, manipulación de datos), Matplotlib/Seaborn (visualización básica).
     * Introducción Conceptual a las Matemáticas Requeridas (ver sección detallada abajo).
-* **Recursos Sugeridos:**
-    * **Python:**
-        * [🇪🇸 Platzi - Curso de Fundamentos de Python](https://platzi.com/cursos/python/)
-        * [🇬🇧 Udemy - Complete Python Bootcamp From Zero to Hero in Python](https://www.udemy.com/course/complete-python-bootcamp/)
-        * [🇬🇧/🇪🇸 YouTube - freeCodeCamp.org Python Courses](https://www.youtube.com/c/Freecodecamp) (Busca sus cursos completos)
-        * [🇪🇸 YouTube - Programación ATS (Python desde cero)](https://www.youtube.com/watch?v=G2I22eyJyuA&list=PLWtYZ2ejMVJnh0KVllw24XklwDZAG1zrc)
-    * **Bibliotecas:** Tutoriales oficiales, cursos de Data Science en Udemy/Platzi que las introducen.
 
 ---
 
@@ -95,6 +88,7 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 
 * **Importancia:** Clave para la optimización de modelos (ajuste de parámetros para minimizar errores).
 
+* **Recursos Sugeridos para Matemáticas:**
 * [https://www.udemy.com/course/metodos-numericos-con-python-analisis-de-errores/](Metodos Numericos 1)
 * [https://www.udemy.com/course/metodos-numericos-con-python-calcular-ceros-de-funciones/?couponCode=KEEPLEARNING](Métodos numericos 2)
 * [https://www.udemy.com/course/metodos-numericos-con-python-interpolacion-numerica/?couponCode=KEEPLEARNING](Métodos numericos 3)
@@ -127,6 +121,7 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
         * **Nivel de Detalle Requerido:** **Básico (Familiaridad Conceptual).**
 
 
+* **Recursos Sugeridos para Matemáticas:**
 ### Recursos Estadistica Probabilidad 
 * [https://www.udemy.com/course/curso-completo-de-estadistica-a-nivel-universitario/?couponCode=KEEPLEARNING](Curso completo de Estadística a nivel universitario)
 * [https://cursos.a2capacitacion.com/courses/enrolled/2418317](ESTADÍSTICA DESCRIPTIVA)
@@ -179,7 +174,7 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
         * **Nivel de Detalle Requerido:** **Muy Profundo (Práctico y Conceptual).** Entender por qué y cómo implementarla.
 
 ### (Opcional) Optimización Específica para IA
-
+* **Recursos Sugeridos para Matemáticas:**
 ### Optimización
 * [https://www.udemy.com/course/investigacion-de-operaciones-optimizacion-con-python/?couponCode=KEEPLEARNING](Investigación de Operaciones: Optimización con Python)
 
@@ -211,17 +206,10 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
         * *Uso en IA:* VAEs, algunos algoritmos de RL.
         * **Nivel de Detalle Requerido:** **Medio-Alto (Conceptual y Reconocimiento de Aplicación).**
 
-* **Recursos Sugeridos para Matemáticas:**
-    * [🇬🇧 Coursera - Mathematics for Machine Learning Specialization](https://www.coursera.org/specializations/mathematics-machine-learning)
-    * [🇪🇸 Platzi - Curso de Fundamentos Matemáticos para IA y Data Science](https://platzi.com/cursos/matematicas-ds-ai/)
-    * [🇬🇧 Khan Academy](https://www.khanacademy.org/) (Álgebra Lineal, Cálculo, Estadística)
-    * [🇬🇧 YouTube - 3Blue1Brown](https://www.youtube.com/c/3blue1brown) (Intuición visual excelente para LinAlg/Cálculo)
-    * Libro: "Mathematics for Machine Learning" (Deisenroth, Faisal, Ong) - (Más teórico)
-
 ---
 
 ## Fase 2: Machine Learning Clásico
-
+* **Recursos Sugeridos:**
 ### Recursos Machine Learning Clasico 
 * [https://www.udemy.com/course/machine-learning-desde-cero/](Machine Learning y Data Science: Curso Completo con Python)
 * [https://cursos.a2capacitacion.com/courses/enrolled/1861488](MACHINE LEARNING A2 Capacitacion)
@@ -232,17 +220,14 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 * **Objetivo:** Entender algoritmos fundamentales de aprendizaje supervisado y no supervisado.
 * **Duración Estimada:** 2 - 4 meses
 * **Temas Principales:** Regresión Lineal/Logística, SVM, Árboles (Decisión, Random Forest, Gradient Boosting), Clustering (K-Means, DBSCAN), Reducción de Dimensión (PCA), Evaluación de Modelos (Métricas, Validación Cruzada), Ingeniería de Características.
-* **Recursos Sugeridos:**
-    * [🇬🇧 Coursera - Machine Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction)
-    * [🇪🇸 Platzi - Escuela de Data Science e IA](https://platzi.com/escuela/data/) (Cursos de Fundamentos de ML, Scikit-learn)
-    * [🇬🇧 Udemy - Machine Learning A-Z™: AI, Python & R](https://www.udemy.com/course/machinelearning/)
-    * [🇬🇧 Kaggle Learn - Intro/Intermediate Machine Learning](https://www.kaggle.com/learn)
-    * [🇬🇧 YouTube - StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer)
+
+
 
 ---
 
 ## Fase 3: Deep Learning
 
+* **Recursos Sugeridos:**
 ### Recursos Deep Learning  
 * [https://www.udemy.com/course/deep-learning-a-z/?couponCode=KEEPLEARNING](Deep Learning de A a Z:redes neuronales en Python desde cero)
 * [https://cursos.a2capacitacion.com/courses/enrolled/1861488](MACHINE LEARNING A2 Capacitacion)
@@ -254,33 +239,25 @@ Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinfor
 * **Objetivo:** Aprender sobre redes neuronales, arquitecturas para visión y secuencias.
 * **Duración Estimada:** 3 - 5 meses
 * **Temas Principales:** Redes Neuronales Artificiales (ANN), Optimización (GD, Adam), Regularización, Frameworks (TensorFlow y/o PyTorch), Redes Convolucionales (CNN) para Visión, Redes Recurrentes (RNN, LSTM, GRU) para Secuencias, Introducción a Transformers.
-* **Recursos Sugeridos:**
-    * [🇬🇧 Coursera - Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning)
-    * [🇪🇸 Platzi - Cursos de Redes Neuronales, CNNs](https://platzi.com/cursos/redes-neuronales/, https://platzi.com/cursos/cnn-tensorflow/)
-    * [🇬🇧 Udemy - Deep Learning A-Z™](https://www.udemy.com/course/deeplearning/)
-    * [🇬🇧 Udemy - TensorFlow Developer Certificate / PyTorch Bootcamp](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/, https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/)
-    * [🇬🇧 fast.ai - Practical Deep Learning for Coders](https://course.fast.ai/)
-    * [🇬🇧 YouTube - Stanford CS231n (CNNs)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
+
+
 
 ---
 
+* **Recursos Sugeridos:**
 ### Fase 4: Procesamiento del Lenguaje Natural (NLP) y LLMs
 
 [https://www.udemy.com/course/procesamiento-del-lenguaje-natural/?couponCode=KEEPLEARNING](Procesamiento del Lenguaje Natural Moderno en Python)
 [https://www.udemy.com/course/master-procesamiento-lenguaje-natural-nlp-python/](Procesamiento del Lenguaje Natural)
 [https://www.udemy.com/course/ingenieria-llm-ia-generativa-modelos-lenguaje-gran-escala-juan-gomila/](Ingeniería de LLM: Domina IA, Modelos de Lenguaje y Agentes Conviértete en un Ingeniero LLM en 8 semanas: Construye y despliega 8 aplicaciones LLM, dominando toda la IA Generativa)
+    * [🇬🇧 Hugging Face Course](https://huggingface.co/learn/nlp-course) (¡Esencial!)
 
 
 * **Objetivo:** Especializarse en cómo las máquinas entienden/generan lenguaje, con foco en LLMs.
 * **Duración Estimada:** 3 - 6 meses
 * **Temas Principales:** Preprocesamiento de texto, Vectorización (BoW, TF-IDF, Embeddings - Word2Vec, GloVe, FastText), Modelos de Secuencia (RNN/LSTM para NLP), Atención y Transformers (¡Clave!), Modelos Pre-entrenados (BERT, GPT), Fine-tuning, Prompt Engineering, Evaluación de Modelos de Lenguaje, RAG (Retrieval-Augmented Generation).
-* **Recursos Sugeridos:**
-    * [🇬🇧 Hugging Face Course](https://huggingface.co/learn/nlp-course) (¡Esencial!)
-    * [🇬🇧 Coursera - Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
-    * [🇪🇸 Platzi - Cursos de NLP, ChatGPT y Prompt Engineering](https://platzi.com/cursos/nlp/, https://platzi.com/cursos/chatgpt/)
-    * [🇬🇧 Udemy - NLP with Python](https://www.udemy.com/course/natural-language-processing-with-python/)
-    * [🇬🇧 YouTube - Stanford CS224n (NLP con DL)](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
-    * [🇬🇧 DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/) (Muchos sobre LLMs, Prompting, LangChain)
+
+
 
 ---
 
@@ -294,14 +271,7 @@ Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinfor
 * **Objetivo:** Aprender cómo los agentes toman decisiones para maximizar recompensas.
 * **Duración Estimada:** 3 - 5 meses
 * **Temas Principales:** Conceptos RL (Agente, Entorno, Estado, Acción, Recompensa), MDPs, Q-Learning, Policy Gradients (REINFORCE), Actor-Critic (A2C, DDPG, SAC), Deep RL, OpenAI Gym/Gymnasium, Stable Baselines3, Agentes basados en LLMs (conceptos y frameworks como LangChain/LlamaIndex).
-* **Recursos Sugeridos:**
-    * [🇬🇧 Coursera - Reinforcement Learning Specialization](https://www.coursera.org/specializations/reinforcement-learning)
-    * [🇪🇸 Platzi - Curso de Introducción al Aprendizaje por Refuerzo](https://platzi.com/cursos/aprendizaje-refuerzo/)
-    * [🇬🇧 Udemy - AI Reinforcement Learning in Python (Lazy Programmer)](https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/)
-    * [🇬🇧 Udemy - Deep Reinforcement Learning 2.0 (Phil Tabor)](https://www.udemy.com/course/deep-reinforcement-learning/)
-    * [🇬🇧 YouTube - David Silver's RL Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) (Teórico)
-    * [🇬🇧 DeepLearning.AI Short Course - LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
-    * [🇬🇧 LlamaIndex / LangChain Documentations & Tutorials](https://docs.llamaindex.ai/en/stable/, https://python.langchain.com/docs/get_started/introduction)
+
 
 ---
 
@@ -312,12 +282,9 @@ Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinfor
 * **Temas Principales:** Contenerización (Docker), Orquestación (Kubernetes), Cloud (AWS SageMaker, Google Vertex AI, Azure ML), Despliegue (APIs con Flask/FastAPI, Serverless), Infraestructura como Código (Terraform), CI/CD para ML, Monitoreo (drift, rendimiento), Versionado (DVC, MLflow), Optimización para Inferencia (ONNX).
 * **Recursos Sugeridos:**
     * [🇬🇧 Coursera - MLOps Specialization (DeepLearning.AI)](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
-    * [🇪🇸 Platzi - Ruta de MLOps y Deploy](https://platzi.com/ruta/mlops-deploy/)
     * [🇬🇧 Udemy - Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/)
     * [🇬🇧 Udemy - AWS Certified Machine Learning Specialty](https://www.udemy.com/course/aws-machine-learning/)
-    * [🇬🇧 Made With ML - MLOps Course](https://madewithml.com/#mlops) (Gratuito)
-    * [🇬🇧 Documentación: MLflow, FastAPI, DVC](https://mlflow.org/docs/latest/index.html, https://fastapi.tiangolo.com/, https://dvc.org/)
-    * [🇪🇸 Dot CSV (YouTube Channel)](https://www.youtube.com/c/DotCSV) (Contenido de IA en español)
+    * [Sistemas de aprendizaje automático de producción](https://www.coursera.org/learn/gcp-production-ml-systems) (Gratuito)
 
 ---
 
@@ -326,11 +293,6 @@ Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinfor
 * **Objetivo:** Comprender implicaciones éticas y mantenerse actualizado.
 * **Duración Estimada:** Permanente / Continuo
 * **Temas Principales:** Sesgos (Bias), Equidad (Fairness), Transparencia, Privacidad, Seguridad, Explicabilidad (XAI), Impacto Social.
-* **Recursos Sugeridos:**
-    * [🇬🇧 Google AI - Responsible AI Practices](https://ai.google/responsibilities/responsible-ai-practices/)
-    * [🇬🇧 Coursera - AI For Everyone by Andrew Ng](https://www.coursera.org/learn/ai-for-everyone)
-    * [🇪🇸 Platzi - Curso de Ética y Manejo de Datos](https://platzi.com/cursos/etica-datos/)
-    * Lectura de Blogs (Google, OpenAI, DeepMind), Papers (arXiv), Conferencias (NeurIPS, ICML), Comunidades (Kaggle, Reddit), Líderes de opinión (Twitter/X, LinkedIn).
 
 ---
 
