@@ -220,9 +220,14 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 
 ---
 
-
-
 ## Fase 2: Machine Learning Clásico
+
+### Recursos Machine Learning Clasico 
+* [https://www.udemy.com/course/machine-learning-desde-cero/](Machine Learning y Data Science: Curso Completo con Python)
+* [https://cursos.a2capacitacion.com/courses/enrolled/1861488](MACHINE LEARNING A2 Capacitacion)
+* [https://www.udemy.com/course/machine-learning-con-python-aprendizaje-automatico-avanzado/?couponCode=KEEPLEARNING](Machine Learning con Python. Aprendizaje Automático Avanzado)
+* [https://www.udemy.com/course/ensemble-machine-learning-python/?couponCode=KEEPLEARNING](Máster Especialista en Machine Learning Ensemble con Python.)
+* [https://www.udemy.com/course/dimension-reduction-and-source-separation-in-neuroscience/?couponCode=KEEPLEARNING](PCA & multivariate signal processing, applied to neural data)
 
 * **Objetivo:** Entender algoritmos fundamentales de aprendizaje supervisado y no supervisado.
 * **Duración Estimada:** 2 - 4 meses
@@ -238,6 +243,14 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 
 ## Fase 3: Deep Learning
 
+### Recursos Deep Learning  
+* [https://www.udemy.com/course/deep-learning-a-z/?couponCode=KEEPLEARNING](Deep Learning de A a Z:redes neuronales en Python desde cero)
+* [https://cursos.a2capacitacion.com/courses/enrolled/1861488](MACHINE LEARNING A2 Capacitacion)
+* [https://www.udemy.com/course/master-especialista-deep-learning-python-pytorch/](Máster Especialista de Deep Learning en Python con PyTorch)
+* [https://www.udemy.com/course/deeplearning_x/?couponCode=KEEPLEARNING](A deep understanding of deep learning (with Python intro))
+* [https://www.udemy.com/course/pytorch-deep-learning/](PyTorch: Deep Learning and Artificial Intelligence
+Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinforcement Learning, and More!)
+
 * **Objetivo:** Aprender sobre redes neuronales, arquitecturas para visión y secuencias.
 * **Duración Estimada:** 3 - 5 meses
 * **Temas Principales:** Redes Neuronales Artificiales (ANN), Optimización (GD, Adam), Regularización, Frameworks (TensorFlow y/o PyTorch), Redes Convolucionales (CNN) para Visión, Redes Recurrentes (RNN, LSTM, GRU) para Secuencias, Introducción a Transformers.
@@ -251,7 +264,12 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 
 ---
 
-## Fase 4: Procesamiento del Lenguaje Natural (NLP) y LLMs
+### Fase 4: Procesamiento del Lenguaje Natural (NLP) y LLMs
+
+[https://www.udemy.com/course/procesamiento-del-lenguaje-natural/?couponCode=KEEPLEARNING](Procesamiento del Lenguaje Natural Moderno en Python)
+[https://www.udemy.com/course/master-procesamiento-lenguaje-natural-nlp-python/](Procesamiento del Lenguaje Natural)
+[https://www.udemy.com/course/ingenieria-llm-ia-generativa-modelos-lenguaje-gran-escala-juan-gomila/](Ingeniería de LLM: Domina IA, Modelos de Lenguaje y Agentes Conviértete en un Ingeniero LLM en 8 semanas: Construye y despliega 8 aplicaciones LLM, dominando toda la IA Generativa)
+
 
 * **Objetivo:** Especializarse en cómo las máquinas entienden/generan lenguaje, con foco en LLMs.
 * **Duración Estimada:** 3 - 6 meses
@@ -267,6 +285,11 @@ Esta ruta de estudio está diseñada para guiarte desde los fundamentos absoluto
 ---
 
 ## Fase 5: Agentes Inteligentes y Aprendizaje por Refuerzo (RL)
+
+
+[https://www.udemy.com/course/masterclass-en-inteligencia-artificial/?couponCode=KEEPLEARNING](Masterclass en Inteligencia Artificial)
+[https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo/?couponCode=KEEPLEARNING](Aprendizaje por Refuerzo Profundo 2.0 en Python)
+[https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/?couponCode=KEEPLEARNING](The Complete Agentic AI Engineering Course (2025))
 
 * **Objetivo:** Aprender cómo los agentes toman decisiones para maximizar recompensas.
 * **Duración Estimada:** 3 - 5 meses
